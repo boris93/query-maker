@@ -97,7 +97,7 @@ module.exports = function(){
 						tr.attr("query", queryObj.query);
 						tr.append(td);
 						tr.click(function(){
-							queryBox.text(queryObj.query);
+							queryBox.val(queryObj.query);
 							saveQueryWorkspace.val(queryWorkspaceGet.val());
 							saveQueryName.val(queryObj.name);
 							$('#run-query-btn').click();
