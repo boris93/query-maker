@@ -3,7 +3,7 @@ function getWorkspaceKey(workspace){
 }
 
 function getWorkspaceNames(callback){
-	
+	// TODO Use for autocomplete
 }
 
 function getWorkspaceQueries(workspace, callback){
